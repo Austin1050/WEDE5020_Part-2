@@ -26,11 +26,8 @@ This project involves the planning and eventual development of a modern, user-fr
 - index.html  
 - about.html  
 - services.html  
-- standardpackage.html  
-- goldpackage.html  
-- premiumpackage.html  
-- vippackage.html  
-- buffet-stylepackage.html  
+- standardpackage.html   
+- vippackage.html   
 - orders.html  
 - enquiries.html  
 - contact.html   
@@ -76,7 +73,7 @@ This project involves the planning and eventual development of a modern, user-fr
 |--------|----------------------------------------|--------------------------------------|
 | 1–2    | Discovery & Planning                   | Content audit, sitemap, wireframes   |
 | 3–4    | Design                                 | High-fidelity mockups + style guide  |
-| 5–8    | Development                            | All 11 pages built and linked        |
+| 5–8    | Development                            | All 8 pages built and linked        |
 | 9      | Functionality                          | Forms, navigation, content loaded    |
 | 10–11  | Testing & Revisions                    | Cross-device testing & feedback      |
 | 12     | Launch & Handover                      | Final QA, training & go-live         |
@@ -89,9 +86,8 @@ This project involves the planning and eventual development of a modern, user-fr
 
 ### Part 1 Deliverables (Current Submission)
 - Two complete Website Project Proposals
-- Proposal 1: Package Sales & Online Orders Focus
-- Proposal 2: Services, Packages & Enquiries Focus
-- Budget estimates in South African Rands (ZAR)
+- Proposal 1: DIJONG AFRICAN CUISINE
+- Proposal 2: BrightPath Learning Academy
 
 ---
 
@@ -121,42 +117,6 @@ Part 2 focuses on the visual design system, responsive UI styling, and wireframe
 - Responsive design using defined breakpoints (768px, 480px, and large screens ≥1400px)
 
 ---
-
-### Wireframes (Low-Fidelity)
-Wireframes were created to plan layout, content hierarchy, and user flow before final development. The wireframes follow the same page structure implemented in the CSS (sticky navbar, hero layout, product grid/cards, events section, enquiry dropdown, forms, map section, and footer).
-
-**Wireframes included (Mobile + Desktop):**
-- index.html (Home)
-- about.html (About Us)
-- services.html (Services)
-- standardpackage.html
-- goldpackage.html
-- premiumpackage.html
-- vippackage.html
-- buffet-stylepackage.html
-- orders.html (Place an Order)
-- enquiries.html (Custom Enquiries)
-- contact.html (Contact Us)
-
-**Location:**
-- `Part2/Wireframes/`
-
-#### Wireframe Links (Update filenames if yours differ)
-| Page | Mobile Wireframe | Desktop Wireframe |
-|------|------------------|------------------|
-| Home (index.html) | `Part2/Wireframes/index-mobile.png` | `Part2/Wireframes/index-desktop.png` |
-| About (about.html) | `Part2/Wireframes/about-mobile.png` | `Part2/Wireframes/about-desktop.png` |
-| Services (services.html) | `Part2/Wireframes/services-mobile.png` | `Part2/Wireframes/services-desktop.png` |
-| Standard Package | `Part2/Wireframes/standardpackage-mobile.png` | `Part2/Wireframes/standardpackage-desktop.png` |
-| Gold Package | `Part2/Wireframes/goldpackage-mobile.png` | `Part2/Wireframes/goldpackage-desktop.png` |
-| Premium Package | `Part2/Wireframes/premiumpackage-mobile.png` | `Part2/Wireframes/premiumpackage-desktop.png` |
-| VIP Package | `Part2/Wireframes/vippackage-mobile.png` | `Part2/Wireframes/vippackage-desktop.png` |
-| Buffet-style Package | `Part2/Wireframes/buffet-stylepackage-mobile.png` | `Part2/Wireframes/buffet-stylepackage-desktop.png` |
-| Orders (orders.html) | `Part2/Wireframes/orders-mobile.png` | `Part2/Wireframes/orders-desktop.png` |
-| Enquiries (enquiries.html) | `Part2/Wireframes/enquiries-mobile.png` | `Part2/Wireframes/enquiries-desktop.png` |
-| Contact (contact.html) | `Part2/Wireframes/contact-mobile.png` | `Part2/Wireframes/contact-desktop.png` |
-
-> Note: Wireframes are low-fidelity and focus on layout structure rather than final colours and imagery.
 
 ---
 
@@ -207,8 +167,6 @@ The site is responsive across mobile, tablet, and large screens using the follow
 
 ### File Location
 - Main stylesheet: `styles.css`
-- Wireframes folder: `Part2/Wireframes/`
-
 ---
 
 ## Sitemap
@@ -219,10 +177,7 @@ Dijong African Cuisine Website
 ├── services.html               (Services)
 ├── Packages
 │   ├── standardpackage.html
-│   ├── goldpackage.html
-│   ├── premiumpackage.html
 │   ├── vippackage.html
-│   └── buffet-stylepackage.html
 ├── orders.html                 (Place an Order)
 ├── enquiries.html              (Custom Enquiries)
 └── contact.html                (Contact Us)
@@ -244,7 +199,6 @@ All changes and improvements to the project will be tracked here.
 
 ### [2026-09-18] – Part 2 UI Styling, Responsive CSS & Wireframes
 - Created low-fidelity wireframes (mobile + desktop) for all 11 pages
-- Added wireframes to `Part2/Wireframes/` and linked them in the README for review
 - Added global CSS reset and base typography (Segoe UI font stack)
 - Implemented sticky navigation bar styling, cart button/badge, and hamburger menu responsive behaviour
 - Designed and styled hero section (outlined heading effect + interactive hero image)
